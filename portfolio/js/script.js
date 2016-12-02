@@ -28,3 +28,8 @@ $(function() {
         $("#myCarousel").carousel('cycle');
     });
 });
+
+//Tool Tip
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
