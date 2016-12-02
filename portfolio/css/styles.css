@@ -1,0 +1,315 @@
+    /* General */
+
+html body {
+    min-height: 2000px;
+    padding-top: 70px;
+    background-color: #01539c;
+}
+
+
+/* Navigation bar */
+
+#header-nav {
+    background-color: #5cb85c;
+    border: none;
+}
+
+
+/* Navigation bar links*/
+
+#header-nav a {
+    color: #fff;
+    text-align: center;
+}
+
+#header-nav a:hover {
+    color: #5cb85c;
+    background-color: #fff;
+    text-align: center;
+}
+
+#header-nav .active a {
+    color: #5cb85c;
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #5cb85c;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+/* Navigation bar icons on the right side */
+
+#header-nav .navbar-right a {
+    display: block;
+    font-size: 1.8em;
+    margin: 10px 4px 0px 0px;
+    padding: 4px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#header-nav .navbar-right a:hover {
+    background-color: #5cb85c;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* Calling button */
+
+.btn-lg {
+    margin-top: 10px;
+    background-color: #01539c;
+}
+
+.btn-lg:hover {
+    background-color: #5cb85c;
+}
+
+
+/* Head jumbotron */
+
+.head-jumbotron {
+    background-image: url('../img/portfolio-background.png');
+    background-color: #5bc0de;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+}
+
+.head-jumbotron img {
+    width: 120px;
+    border: 5px solid rgba(1, 83, 156, 0.9);
+}
+
+.head-jumbotron h1 {
+    margin-bottom: 20px;
+    font-size: 2.2em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.head-jumbotron h3 {
+    font-size: 1.5em;
+}
+
+.head-jumbotron h5 {
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+
+/* Body jumbotron */
+
+.body-jumbotron > .container {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.body-jumbotron {
+    background-color: #fff;
+    text-align: left;
+    padding: 30px;
+    color: #01539c;
+}
+
+.body-jumbotron p {
+    font-size: 1.3em;
+    text-align: left;
+    line-height: 120%;
+}
+
+.body-jumbotron h3 {
+    color: #5cb85c;
+}
+
+.body-jumbotron h6 {
+    text-align: center;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    display: block;
+    /* for use on default inline elements like span */
+    margin: 25px auto;
+    overflow: hidden;
+    background-color: #b7b7b7;
+}
+
+
+/* Skills progress bars */
+
+.progress div {
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-align: left;
+    padding-left: 5px;
+}
+
+
+/* Head jumbotron icons*/
+
+#social-customization a {
+    text-decoration: none;
+    font-size: 200%;
+    padding: 15px 7px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#social-customization a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+iframe {
+    border: none;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #5cb85c;
+    border: none;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 200%;
+    padding: 15px 7px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/*==========  Mobile first media queries  ==========*/
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+    /* Updating icons sizes and padding, and font sizes */
+    #social-customization a {
+        font-size: 240%;
+        padding: 15px 10px;
+    }
+    .footer a {
+        font-size: 240%;
+        padding: 15px 10px;
+    }
+    .head-jumbotron img {
+        width: 140px;
+    }
+    .head-jumbotron h1 {
+        font-size: 2.4em;
+    }
+    .head-jumbotron h3 {
+        font-size: 1.75em;
+    }
+    .head-jumbotron h5 {
+        font-size: 1em;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+    /* Navigation bar animation */
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+    /* Updating icons sizes and padding, and font sizes */
+    #social-customization a {
+        padding: 22px 20px;
+    }
+    .footer a {
+        padding: 20px 20px;
+    }
+    .head-jumbotron img {
+        width: 170px;
+    }
+    .head-jumbotron h1 {
+        font-size: 3em;
+    }
+    .head-jumbotron h3 {
+        font-size: 1.9em;
+    }
+    .head-jumbotron h5 {
+        font-size: 1.2em;
+    }
+    .body-jumbotron p {
+        text-align: justify;
+        letter-spacing: 1px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    /* Showing the packground image */
+    html body {
+        background-image: url('../img/background-bottom-2.png');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 100%;
+    }
+    /* Updating icons sizes and padding, and font sizes */
+    #social-customization a {
+        padding: 22px 25px;
+    }
+    .footer a {
+        padding: 20px 25px;
+    }
+    .head-jumbotron h1 {
+        font-size: 3.2em;
+    }
+    .head-jumbotron h3 {
+        font-size: 2.1em;
+    }
+    .head-jumbotron h5 {
+        font-size: 1.4em;
+    }
+    #header-nav .navbar-right a {
+        font-size: 2em;
+        margin: 10px 20px 0px 0px;
+    }
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width: 1200px) {
+        /* Updating icons sizes and padding, and font sizes */
+        #social-customization a {
+            font-size: 250%;
+            padding: 22px 35px;
+        }
+        .footer a {
+            font-size: 250%;
+            padding: 20px 35px;
+        }
+        .head-jumbotron h1 {
+            font-size: 3.5em;
+        }
+        .head-jumbotron h3 {
+            font-size: 2.3em;
+        }
+        .head-jumbotron h5 {
+            font-size: 1.7em;
+        }
+    }
