@@ -36,14 +36,14 @@ $(function() {
 
 // Form validation
 
-function matchingemails() {
-    if (document.getElementById('name').value === ""
-        alert('Please enter your name');
-        return false;
-        else {
-            if (document.getElementById('firstemail').value != document.getElementById('firstemail-R').value) {
-                alert('Emails are not matching');
-                return false;
-            }
-        }
-    }
+// function matchingemails() {
+//     if (document.getElementById('name').value === ""
+//         alert('Please enter your name');
+//         return false;
+//         else {
+//             if (document.getElementById('firstemail').value != document.getElementById('firstemail-R').value) {
+//                 alert('Emails are not matching');
+//                 return false;
+//             }
+//         }
+//     }
