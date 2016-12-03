@@ -74,7 +74,7 @@ html body {
 }
 
 /******Tool Tip*****/
-/*.tooltip-inner {
+.tooltip-inner {
     background-color: #fff;
     color: #000;
     margin-top: -10px;
@@ -98,7 +98,7 @@ html body {
 .tooltip.left .tooltip-arrow {
     margin-top: -10px;
     border-left-color: #fff;
-}*/
+}
 
 /* Head jumbotron */
 
@@ -216,6 +216,25 @@ iframe {
 
 .footer a:hover {
     color: rgba(255, 255, 255, 1);
+}
+
+/* Modal */
+
+#myModal .modal-dialog .modal-header .modal-title{
+    color: #5cb85c;
+    font-size: 1.5em;
+}
+#myModal .modal-dialog .modal-content{
+    background-color: #fff;
+}
+#myModal .modal-dialog .modal-footer .btn{
+    border: none;
+    background-color: #5cb85c;
+    color: #fff;
+}
+#myModal .modal-dialog .modal-footer .btn:hover{
+    background-color: #fff;
+    color: #5cb85c;
 }
 
 

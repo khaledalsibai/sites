@@ -40,11 +40,11 @@
                         <li><a class="page-scroll" href="#volunteering">Volunteering</a></li>
                         <li><a class="page-scroll" href="#location">Location</a></li>
                         <li role="separator" class="divider visible-xs"></li>
-                        <li><a class="page-scroll visible-xs" href="">Download Resume</a></li>
+                        <li><a class="page-scroll visible-xs" data-toggle="modal" data-target="#myModal">Send Resume</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="" target="_blank" class="fa fa-download hidden-xs"></a>
+                            <a class="fa fa-download hidden-xs" data-toggle="modal" data-target="#myModal"></a>
                         </li>
                     </ul>
                 </div>
@@ -61,8 +61,7 @@
                 <h3>Software Developer</h3>
                 <h5>Seeking employment as Web Developer | Seattle, WA</h5>
             </div>
-            <div id="social-customization">
-                <!-- <a href="mailto:khaled.alsibai@gmail.com" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Send Email" class="fa fa-envelope-o"></a> -->
+            <div id="social-customization" class="hidden-md hidden-lg">
                 <a href="mailto:khaled.alsibai@gmail.com" target="_blank" class="fa fa-envelope-o"></a>
                 <a href="https://www.linkedin.com/in/khaledalsibai" target="_blank" class="fa fa-linkedin"></a>
                 <a href="https://github.com/khaledalsibai" target="_blank" class="fa fa-github"></a>
@@ -70,6 +69,15 @@
                 <a href="https://www.facebook.com/foksch/" target="_blank" class="fa fa-facebook"></a>
                 <a href="https://www.behance.net/foksch" target="_blank" class="fa fa-behance"></a>
                 <a href="https://500px.com/khaledalsibai" target="_blank" class="fa fa-500px"></a>
+            </div>
+            <div id="social-customization" class="visible-md visible-lg">
+                <a href="mailto:khaled.alsibai@gmail.com" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Send Email" class="fa fa-envelope-o"></a>
+                <a href="https://www.linkedin.com/in/khaledalsibai" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Linkedin Profile" class="fa fa-linkedin"></a>
+                <a href="https://github.com/khaledalsibai" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Github Acc" class="fa fa-github"></a>
+                <a href="http://codepen.io/Khaledalsibai/" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Codepen Acc" class="fa fa-codepen"></a>
+                <a href="https://www.facebook.com/foksch/" target="_blank" data-placement="bottom" data-toggle="tooltip" title="FB Page" class="fa fa-facebook"></a>
+                <a href="https://www.behance.net/foksch" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Behance Profile" class="fa fa-behance"></a>
+                <a href="https://500px.com/khaledalsibai" target="_blank" data-placement="bottom" data-toggle="tooltip" title="500px Profile" class="fa fa-500px"></a>
             </div>
             <div class="visible-xs">
                 <a class="btn btn-lg btn-primary" href="tel:209-330-0055" role="button">209-330-0055</a>
@@ -150,7 +158,7 @@
             <h4>Co Founder &amp; COO</h4>
             <h5>April 2010 - September 2015 (5 years, 6 months) | Jeddah, Saudi Arabia</h5>
             <p>FOKS Creative House provided both photography and advertising services to direct clients, startups and advertising agencies. The Company was established in 2010 and closed in 2015 when I immigrated to the United States of America.</p>
-            <p>As manager of the commercial photography studio, I consulted with clients both before and after each project to establish rapport and ongoing relationships, encourage communication and provide the best service and product possible. I oversaw photoshoots from initial staffing through final product delivery for advertising agencies and independent businesses.</p>
+            <p>As manager of the commercial photography studio, I consulted with clients both before and after each project to establish rapport and ongoing relationships, encourage communication and provide the best service and product possible. I oversaw photo-shoots from initial staffing through final product delivery for advertising agencies and independent businesses.</p>
             <p>Through networking I engaged with local photographers, event planners, hair stylists, modeling agencies, food stylists and venue rental &amp; sales companies to discuss local business activities, plan and execute special events. I researched and implemented effective brand exposure techniques and client interaction through social media platforms such as Facebook, Pinterest, Twitter and Instagram.</p>
             <p>I worked with creative directors to develop design concepts and reviewed artwork to ensure conformity to the clients' standards and specifications and to provide an end product that met each client's time and budget requirements.</p>
             <p role="presentation" class="divider"></p>
@@ -280,16 +288,16 @@
             <div class="row">
                 <div class="col-sm-12 col-md-6">
                     <a href="https://en.wikipedia.org/wiki/University_of_Aleppo" target="_blank">
-                        <h4>Jami't Alep</h4>
+                        <h4>Aleppo University</h4>
                     </a>
-                    <h5>Associate's degree, Electrical and Electronics Engineering, score: 98/100</h5>
+                    <h5>Associate's degree in electrical &amp; electronics engineering, score: 98/100</h5>
                     <p>1993 – 1995</p>
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <a href="https://www.highline.edu" target="_blank">
                         <h4>Highline College</h4>
                     </a>
-                    <h5>100 hours of medical interpreting</h5>
+                    <h5>100 hours of medical interpreting, score: 86/100</h5>
                     <p>2016</p>
                 </div>
             </div>
@@ -402,6 +410,36 @@
             <br>
             <iframe class="container-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5739.71716457869!2d-122.33750789397682!3d47.60523431172632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb3a044a779f5fdd2!2sSeattle+Public+Library-Central+Library!5e0!3m2!1sen!2sus!4v1480375368325" width="100%" height="370" allowfullscreen></iframe>
         </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel"> Send resume</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Thank you for choosing to get my resume, for security reason please enter your email below and I will be glad to send a copy of my resume to the provided email as soon as possible.</p>
+                        <form>
+                            <fieldset>
+                                <label>Full name
+                                    <input type='text' pattern="[A-Za-z]+" id='name' name='name' placeholder='Full name' required>
+                                </label>
+                                <label>Preferred email address:
+                                    <input type='email' name='email' id='firstemail' placeholder='email@me.com' required> </label>
+                                <label>Repeat email address:
+                                    <input onchange="matchingemails()" type='email' id='firstemail-R' name='email-R' placeholder='email@me.com' required>
+                                </label>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" onclick="return matchingemails()" class="btn btn-primary">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>Ó
         <footer class="footer">
             <div class="container-fluid">
                 <a href="mailto:khaled.alsibai@gmail.com" target="_blank" class="fa fa-envelope-o"></a>
