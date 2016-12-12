@@ -16,18 +16,18 @@ $('.navbar').mouseleave(function() {
 });
 
 //Bootstrap Carousel controls
-$(function() {
-    $('.carousel.slide').carousel({
-        interval: 10000,
-        pause: "hover"
-    });
+// $(function() {
+//     $('.carousel.slide').carousel({
+//         interval: 10000,
+//         pause: "hover"
+//     });
 
-    $('input').focus(function() {
-        $("#myCarousel").carousel('pause');
-    }).blur(function() {
-        $("#myCarousel").carousel('cycle');
-    });
-});
+//     $('input').focus(function() {
+//         $("#myCarousel").carousel('pause');
+//     }).blur(function() {
+//         $("#myCarousel").carousel('cycle');
+//     });
+// });
 
 //Tool Tip
 $(function() {
