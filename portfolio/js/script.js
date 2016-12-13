@@ -30,20 +30,6 @@ $('.navbar').mouseleave(function() {
 // });
 
 //Tool Tip
-$(function() {
-    $('[data-toggle="tooltip"]').tooltip()
-})
-
-// Form validation
-
-// function matchingemails() {
-//     if (document.getElementById('name').value === ""
-//         alert('Please enter your name');
-//         return false;
-//         else {
-//             if (document.getElementById('firstemail').value != document.getElementById('firstemail-R').value) {
-//                 alert('Emails are not matching');
-//                 return false;
-//             }
-//         }
-//     }
+// $(function() {
+//     $('[data-toggle="tooltip"]').tooltip()
+// })
