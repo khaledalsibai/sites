@@ -64,9 +64,10 @@
         .btn-lg:hover {
             background-color: #5cb85c;
         }
+
         /******Tool Tip*****/
         
-        .tooltip-inner {
+        /*.tooltip-inner {
             background-color: #fff;
             color: #000;
             margin-top: -10px;
@@ -90,7 +91,8 @@
         .tooltip.left .tooltip-arrow {
             margin-top: -10px;
             border-left-color: #fff;
-        }
+        }*/
+
         /* Head jumbotron */
         
         .head-jumbotron {
@@ -178,7 +180,7 @@
         .social-customization a {
             text-decoration: none;
             font-size: 200%;
-            padding: 15px 7px;
+            padding: 15px 6px;
             color: rgba(255, 255, 255, 0.7);
         }
         
@@ -202,7 +204,7 @@
         .footer a {
             text-decoration: none;
             font-size: 200%;
-            padding: 15px 7px;
+            padding: 15px 6px;
             color: rgba(255, 255, 255, 0.7);
         }
         
@@ -212,13 +214,14 @@
 
         #botton-footer{
             background-color: #fff;
-            height: 40px
+            height: 30px
         }
 
         #botton-footer p{
-            padding-top: 10px;
-            font-size: 1em;
+            padding-top: 8px;
+            font-size: 0.7em;
         }
+
         /* Modal */
         
         #myModal .modal-dialog .modal-header .modal-title {
@@ -319,6 +322,15 @@
             .body-jumbotron p {
                 text-align: justify;
                 letter-spacing: 1px;
+            }
+            #botton-footer{
+            background-color: #fff;
+            height: 40px
+            }
+
+            #botton-footer p{
+            padding-top: 10px;
+            font-size: 1em;
             }
         }
         /* Medium Devices, Desktops */
