@@ -209,6 +209,16 @@
         .footer a:hover {
             color: rgba(255, 255, 255, 1);
         }
+
+        #botton-footer{
+            background-color: #fff;
+            height: 40px
+        }
+
+        #botton-footer p{
+            padding-top: 10px;
+            font-size: 1em;
+        }
         /* Modal */
         
         #myModal .modal-dialog .modal-header .modal-title {
