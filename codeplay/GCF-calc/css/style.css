@@ -1,0 +1,34 @@
+* {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#container div {
+    padding: 10px;
+    background-color: #5cb85c;
+    border-radius: 10px;
+    border: 4px dashed;
+    width: 600px;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	font-size:18px;
+	text-decoration: bold;
+	margin-top: 20px;
+	border: dotted 1px;
+	padding: 5px;
+	display: block;
+	width: 480px;
+    height: 50px;
+
+}
+
+lable{
+	display: inline-block;
+	margin-bottom: 5px;
+}

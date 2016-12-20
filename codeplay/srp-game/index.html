@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.js" integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <!--- Font Awsome -->
+    <script src="https://use.fontawesome.com/4c7009c904.js"></script>
+</head>
+
+<body>
+
+    <div id="container">
+        <h1>(Rock Paper Scissors) Game</h1>
+        <h4>To play, pick your choice and hit play</h4>
+        <form>
+            <i class="fa fa-hand-rock-o" aria-hidden="true"><input class="userSelection" type="radio" name="game" value="rock"></i>
+            <i class="fa fa-hand-paper-o" aria-hidden="true"><input class="userSelection" type="radio" name="game" value="paper"></i>
+            <i class="fa fa-hand-scissors-o" aria-hidden="true"><input class="userSelection" type="radio" name="game" value="scissors"></i>
+        </form>
+        <div id="clicktoPlay">Play!</div>
+        
+        
+        <p id="result">Result</p>
+        <div>
+            <div class="row">
+                <p>Computer</p>
+                <p id="comp">0</p>
+                
+            </div>
+            <div class="row">
+                <p>Player</p>
+                <p Id="you">0</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
